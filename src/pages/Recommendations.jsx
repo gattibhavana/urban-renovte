@@ -26,7 +26,8 @@ const Recommendations = () => {
         idea.budgetLevel === propertyData.budgetLevel || idea.budgetLevel === 'Budget'
     ).slice(0, 3); // Top 3 ideas
 
-    const baseValue = parseInt(propertyData.sizeSqFt) * 6000;
+    const size = parseFloat(propertyData.sizeSqFt) || 0;
+    const baseValue = size * 6000;
 
     // Simulated added value sum
     const totalValueAdded = recommendedIdeas.reduce((sum, idea) => {
@@ -91,7 +92,7 @@ const Recommendations = () => {
                 <div className="cta-section">
                     <h3>Ready to increase your property value?</h3>
                     <p>Book a consultation with our verified enhancement experts to get accurate quotes.</p>
-                    <Button variant="primary" size="lg">Consult an Expert</Button>
+                    <Button variant="primary" size="lg" onClick={() => alert("Consultation request submitted successfully. Our expert will contact you soon.")}>Consult an Expert</Button>
                 </div>
             </div>
         </div>

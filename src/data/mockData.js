@@ -83,5 +83,60 @@ export const propertyListings = [
     status: 'Recommendations Sent',
     submittedAt: '2023-10-22',
     currentEstimatedValue: 15000000
+  },
+  {
+    id: 'p3',
+    ownerName: 'Amit Desai',
+    propertyType: '2BHK Apartment',
+    location: 'Mumbai',
+    sizeSqFt: '850',
+    budget: 'Low (< ₹1L)',
+    status: 'Pending Review',
+    submittedAt: '2023-11-01',
+    currentEstimatedValue: 12000000
+  },
+  {
+    id: 'p4',
+    ownerName: 'Neha Gupta',
+    propertyType: '4BHK Penthouse',
+    location: 'Bangalore',
+    sizeSqFt: '3200',
+    budget: 'Premium (> ₹5L)',
+    status: 'Recommendations Sent',
+    submittedAt: '2023-11-05',
+    currentEstimatedValue: 35000000
+  },
+  {
+    id: 'p5',
+    ownerName: 'Vikram Singh',
+    propertyType: 'Independent House',
+    location: 'Delhi',
+    sizeSqFt: '1800',
+    budget: 'Medium (₹1L - ₹3L)',
+    status: 'Pending Review',
+    submittedAt: '2023-11-10',
+    currentEstimatedValue: 22000000
+  },
+  {
+    id: 'p6',
+    ownerName: 'Anjali Reddy',
+    propertyType: '3BHK Apartment',
+    location: 'Hyderabad',
+    sizeSqFt: '1500',
+    budget: 'Medium (₹1L - ₹3L)',
+    status: 'Pending Review',
+    submittedAt: '2023-11-12',
+    currentEstimatedValue: 9500000
+  },
+  {
+    id: 'p7',
+    ownerName: 'Rohan Mehra',
+    propertyType: 'Studio Apartment',
+    location: 'Chennai',
+    sizeSqFt: '500',
+    budget: 'Low (< ₹1L)',
+    status: 'Recommendations Sent',
+    submittedAt: '2023-11-15',
+    currentEstimatedValue: 4500000
   }
 ];
